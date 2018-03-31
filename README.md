@@ -1,5 +1,5 @@
 # marklasia.github.io
 
-Public repository for web dev testing purposes. Test123.
+Public repository for web dev testing purposes.
 
 Copyright Mark Lasia 2018
