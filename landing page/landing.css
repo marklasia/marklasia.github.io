@@ -1,0 +1,17 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  padding: 0;
+  font: normal 100% Roboto Mono, Helvetica, sans-serif;
+  color: white;
+  background-color: #09021b;
+  background-image: url("nebula.jpg");
+  background-size: 1700px;
+  background-repeat: no-repeat;
+}
+
+.title-motto {
+  margin: 20px;
+  padding: 20px;
+
+}
