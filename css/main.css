@@ -2,38 +2,40 @@
 html {
 	background: linear-gradient(90deg, #25409A, #3FACF5);
 }
+
 body {
 	font-family: 'Rubik', sans-serif;
-	font-size: 10px;
+	font-size: 14px;
 	font-weight:400;
 	background-size: 1500px;
-	background-position: -400px;
+	background-position: -400px 0;
 	background-image: url('background_gradient.svg');
 	background-repeat: no-repeat;
 	color: white;
 	margin: auto;
 	height: 1000px;
+	min-width: 400px;
 }
 
 body h1 {
-font-size: 25px;
+font-size: 35px;
 	font-weight: 300;
 
 }
 
 body h2 {
 	font-weight: 200;
-	font-size: 18px;
+	font-size: 25px;
 
 }
 
 .container {
-	margin: inherit;
+
 	min-width: 350px;
 	max-width: 600px;
 	padding: 25px;
 	text-align: center;
-
+	display: block;
 }
 
 
@@ -55,7 +57,7 @@ body h2 {
 	height: 16px;
 	background-color: #EEEEEE;
 	width: auto;
-	font-size: 13px;
+	font-size: 14px;
 	padding: 10px;
 	margin: auto;
 	margin-bottom: 10px;
@@ -70,6 +72,7 @@ body h2 {
 
 a:link {
     text-decoration: underline;
+		color:white;
 }
 
 a:visited {
@@ -96,8 +99,123 @@ p {
 
 .exchange{
 	color: #7FFF00;opacity:1;
+}
+
+@@media only screen and (min-width: 376px) and (max-width: 599px) {
+/* Mobile version */
+body {
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight:400;
+	background-size: 1500px;
+	background-position: -400px 0;
+	background-image: url('background_gradient.svg');
+	background-repeat: no-repeat;
+	color: white;
+	margin: auto;
+	height: 1000px;
+}
+
+body h1 {
+font-size: 35px;
+	font-weight: 300;
+
+}
+
+body h2 {
+	font-weight: 200;
+	font-size: 25px;
+
+}
+
+.container {
+
+	min-width: 350px;
+	max-width: 600px;
+	padding: 25px;
+	text-align: center;
+	display: block;
+}
 
 
+.brickblocklogo {
+	background-image: url('brickblock_logo_white_transparent.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+.boxwithaddress {
+	border-radius: 2px;
+  text-align: center;
+	color: #777777;
+	border: 0px solid;
+	border-color: #EEEEEE;
+	height: 16px;
+	background-color: #EEEEEE;
+	width: auto;
+	font-size: 14px;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+	/* box-shadow: 3px 3px; */
+	transition: box-shadow .3s;
+}
+
+.boxwithaddress:hover {
+	box-shadow: 1px 1px 2px 2px rgba(33,33,33,.2);
+
+}
+
+a:link {
+    text-decoration: underline;
+		color:white;
+}
+
+a:visited {
+    text-decoration: underline;
+		color:white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+		color: black;
+}
+
+.inlineblock {
+	display: inline-block;
+}
+
+p {
+	margin: 5px;
+}
+
+.exchange{
+	color: #7FFF00;opacity:1;
+}
+}
+
+/* Really small phone support */
+@@media only screen and (max-width: 375px) {
+
+	.container {
+		min-width: 300px;
+		padding: 10px;
+	}
+
+	.boxwithaddress {
+
+		height: 16px;
+
+		font-size: 12px;
+
+	}
 }
 
 
@@ -109,7 +227,7 @@ p {
 		font-size: 15px;
 		font-weight:400;
 		background-size: 2000px;
-		background-position: -200px;
+		background-position: -200px 0;
 		background-image: url('background_gradient.svg');
 		background-repeat: no-repeat;
 		color: white;
@@ -173,6 +291,7 @@ p {
 
 	a:link {
 	    text-decoration: underline;
+			color:white;
 	}
 
 	a:visited {
