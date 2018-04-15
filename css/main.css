@@ -1,10 +1,213 @@
+
+html {
+	background: linear-gradient(90deg, #25409A, #3FACF5);
+}
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	font-weight: 300;
-	background: linear-gradient(to right, #233A8F, #2FE3F5);
+	font-family: 'Rubik', sans-serif;
+	font-size: 10px;
+	font-weight:400;
+	background-size: 1500px;
+	background-position: -400px;
+	background-image: url('background_gradient.svg');
+	background-repeat: no-repeat;
+	color: white;
+	margin: auto;
+	height: 1000px;
 }
 
+body h1 {
+font-size: 25px;
+	font-weight: 300;
+
+}
+
+body h2 {
+	font-weight: 200;
+	font-size: 18px;
+
+}
+
+.container {
+	margin: inherit;
+	min-width: 350px;
+	max-width: 600px;
+	padding: 25px;
+	text-align: center;
+
+}
+
+
+.brickblocklogo {
+	background-image: url('brickblock_logo_white_transparent.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+.boxwithaddress {
+	border-radius: 2px;
+  text-align: center;
+	color: #777777;
+	border: 0px solid;
+	border-color: #EEEEEE;
+	height: 16px;
+	background-color: #EEEEEE;
+	width: auto;
+	font-size: 13px;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+	/* box-shadow: 3px 3px; */
+	transition: box-shadow .3s;
+}
+
+.boxwithaddress:hover {
+	box-shadow: 1px 1px 2px 2px rgba(33,33,33,.2);
+
+}
+
+a:link {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: underline;
+		color:white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+		color: black;
+}
+
+.inlineblock {
+	display: inline-block;
+}
+
+p {
+	margin: 5px;
+}
+
+.exchange{
+	color: #7FFF00;opacity:1;
+
+
+}
+
+
+/* Desktop version */
+@media only screen and (min-width : 600px) {
+
+	body {
+		font-family: 'Rubik', sans-serif;
+		font-size: 15px;
+		font-weight:400;
+		background-size: 2000px;
+		background-position: -200px;
+		background-image: url('background_gradient.svg');
+		background-repeat: no-repeat;
+		color: white;
+		margin: auto;
+		height: 1000px;
+
+	}
+
+	body h1 {
+	font-size: 45px;
+		font-weight: 300;
+
+	}
+
+	body h2 {
+		font-weight: 200;
+		font-size: 32px;
+
+	}
+
+	.container {
+		margin: inherit;
+		min-width: 350px;
+		max-width: 600px;
+		padding: 25px;
+		text-align: center;
+
+	}
+
+
+	.brickblocklogo {
+		background-image: url('brickblock_logo_white_transparent.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 100px;
+		width: 300px;
+		margin: auto;
+	}
+
+	.boxwithaddress {
+		border-radius: 2px;
+	  text-align: center;
+		color: #777777;
+		border: 0px solid;
+		border-color: #EEEEEE;
+		height: 20px;
+		background-color: #EEEEEE;
+		width: auto;
+		font-size: 17px;
+		padding: 10px;
+		margin: auto;
+		margin-bottom: 10px;
+		/* box-shadow: 3px 3px; */
+		transition: box-shadow .3s;
+	}
+
+	.boxwithaddress:hover {
+		box-shadow: 1px 1px 2px 2px rgba(33,33,33,.2);
+
+	}
+
+	a:link {
+	    text-decoration: underline;
+	}
+
+	a:visited {
+	    text-decoration: underline;
+			color:white;
+	}
+
+	a:hover {
+	    text-decoration: underline;
+	}
+
+	a:active {
+	    text-decoration: underline;
+			color: black;
+	}
+
+	.inlineblock {
+		display: inline-block;
+	}
+
+	p {
+		margin: 5px;
+	}
+
+	.exchange{
+		color: #7FFF00;opacity:1;
+
+
+	}
+}
+
+
+
+
+/* OLD CODE
 header {
 	padding: 20px 0;
 }
@@ -15,7 +218,7 @@ header .row, footer .row {
 }
 
 header h1 {
-	font-weight: 700;
+	font-weight: 400;
 	margin: 0;
 }
 
@@ -100,8 +303,4 @@ footer img {
 	height: 32px;
 }
 
-.logoimage {
-	height: 50px;
-	width: 200px;
-	background-image: url('../img/brickblock_logo_white_transparent.png');
-}
+*/
